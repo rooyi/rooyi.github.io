@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Calculate the result by multiplying the sum with the slider value
-        var result = sum * parseFloat(slider.value);
+        var result = parseFloat(sum) * parseFloat(slider.value);
 
         // Display the result
         resultElement.innerHTML = result;
