@@ -11,7 +11,7 @@ Here is where we add to the story. What if each number had a different probabili
  [INSERT: SLIDER EXAMPLE AND BUTTON]
 
 
-<iframe src="https://rooyi.github.io/linearitydemo/linearity.html" width="800px" height="600px"></iframe>
+<iframe src="https://rooyi.github.io/linearitydemo/linearity.html" width="500px" height="300px"></iframe>
 
 
 # LINEARITY OF EXPECTATION
