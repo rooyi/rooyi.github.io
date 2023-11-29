@@ -10,6 +10,7 @@ Let's first visualize the definition of expectation (aka: Mean, Weighted Average
 Here is where we add to the story. What if each number had a different probability of returning? In many cases of probability, not all values have the same probability. This is especially true once we move past coin flips and dice rolls into examples modelled by random variable distributions. Below, you can see an example where you can use a slider to change the likelihoods of each value. As a result, our expectation will look different.
  [INSERT: SLIDER EXAMPLE AND BUTTON]
 
+test test
 
 <iframe src="https://rooyi.github.io/linearitydemo/linearity.html" width="500px" height="300px"></iframe>
 
