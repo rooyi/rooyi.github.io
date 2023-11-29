@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.slider-container, .dice-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.slider {
+    width: 80%;
+}
+
+.dice {
+    width: 50px; /* Adjust as needed */
+    margin: 5px;
+}
