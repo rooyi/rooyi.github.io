@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Roller</title>
+</head>
+<body>
+    <div class="slider-container">
+        <input type="range" min="1" max="10" value="5" class="slider" id="mySlider">
+        <p>Selected Multiplier: <span id="sliderValue">5</span></p>
+    </div>
+
+    <div class="dice-container" id="diceContainer">
+        <!-- Dice images will be added dynamically here -->
+    </div>
+
+    <button id="rollButton">Roll Dice</button>
+
+    <p>Result: <span id="result">0</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
