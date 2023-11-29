@@ -9,10 +9,16 @@ Let's first visualize the definition of expectation (aka: Mean, Weighted Average
 
 Here is where we add to the story. What if each number had a different probability of returning? In many cases of probability, not all values have the same probability. This is especially true once we move past coin flips and dice rolls into examples modelled by random variable distributions. Below, you can see an example where you can use a slider to change the likelihoods of each value. As a result, our expectation will look different.
  [INSERT: SLIDER EXAMPLE AND BUTTON]
+```
+num_dice_input = input("How many dice do you want to roll? [1-6] ")
+num_dice = parse_input(num_dice_input)
+```
 
 # LINEARITY OF EXPECTATION
 One property of expectation is that [INSERT EQUATION], given that a and b are constants. How can we visualize this? Let's use the classic example of a six-sided die. The expected return value of a six-sided die where each result is of equal probability is 3.5, but that itself does not help us give us much information about constants. 
+
 [INSERT: SLIDER GAME CHOOSING THE AMOUNT OF MONEY YOU EARN FROM THE ROLLS]
+
 
 # EXPECTATION OF SUMS
 "Expectation of Sums is the Sum of Expectations." The statement is true when X and Y are dependent and independent alike. X and Y can even have different distributions. Additionally, this concept applies for any amount of expectations. This can seem like a lot of conditions to take in, so let's start one by one. 
