@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var slider = document.getElementById('mySlider');
     var output = document.getElementById('sliderValue');
     var diceContainer = document.getElementById('diceContainer');
-    var resultElement = document.getElementById('fixedResult');
+    var resultElement = document.getElementById('result');
     var rollButton = document.getElementById('rollButton');
 
     // Update the current slider value (on page load)
@@ -43,9 +43,10 @@ document.addEventListener('DOMContentLoaded', function () {
         // Calculate the result by multiplying the sum with the slider value
         var result = parseFloat(sum) * parseFloat(slider.value);
         var fixedResult = result.toFixed(2);
+        result = fixedResult;
 
         // Display the result
-        resultElement.innerHTML = fixedResult;
+        resultElement.innerHTML = result;
     }
 
     // Add event listener to the roll button
