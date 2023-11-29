@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var fixedResult = result.toFixed(2);
 
         // Display the result
-        resultElement.innerHTML = result;
+        resultElement.innerHTML = fixedResult;
     }
 
     // Add event listener to the roll button
