@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Dice images
-    var diceImages = ['dice1.png', 'dice2.png', 'dice3.png', 'dice4.png', 'dice5.png', 'dice6.png'];
+    var diceImages = ['dice_1.png', 'dice_2.png', 'dice_3.png', 'dice_4.png', 'dice_5.png', 'dice_6.png'];
 
     // Function to roll the dice and calculate the result
     function rollDice() {
