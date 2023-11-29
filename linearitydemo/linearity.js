@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var slider = document.getElementById('mySlider');
     var output = document.getElementById('sliderValue');
     var diceContainer = document.getElementById('diceContainer');
-    var resultElement = document.getElementById('result');
+    var resultElement = document.getElementById('fixedResult');
     var rollButton = document.getElementById('rollButton');
 
     // Update the current slider value (on page load)
