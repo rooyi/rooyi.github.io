@@ -12,7 +12,7 @@ Here is where we add to the story. What if each number had a different probabili
 
 ```
 <iframe src="https://rooyi.github.io/rooyi.github.io/linearitydemo/linearity.html" width="800px" height="600px"></iframe>
-```
+
 
 # LINEARITY OF EXPECTATION
 One property of expectation is that [INSERT EQUATION], given that a and b are constants. How can we visualize this? Let's use the classic example of a six-sided die. The expected return value of a six-sided die where each result is of equal probability is 3.5, but that itself does not help us give us much information about constants. 
