@@ -1,37 +1,43 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const diceNumberInput = document.getElementById('diceNumber');
-  const diceValueDisplay = document.getElementById('diceValue');
-  const diceContainer = document.getElementById('diceContainer');
-  const individualExpectedValue = document.getElementById('individualExpectedValue');
-  const totalExpectedValue = document.getElementById('totalExpectedValue');
+    const diceSlider = document.getElementById('diceSlider');
+    const diceCountDisplay = document.getElementById('diceCount');
+    const diceContainer = document.getElementById('diceContainer');
+    const resultContainer = document.getElementById('result');
 
-  diceNumberInput.addEventListener('input', updateDiceNumber);
+    diceSlider.addEventListener('input', updateDiceCount);
 
-  function updateDiceNumber() {
-    const numDice = diceNumberInput.value;
-    diceValueDisplay.textContent = numDice;
-    displayDice(numDice);
-    calculateExpectedValue(numDice);
-  }
-
-  function displayDice(numDice) {
-    diceContainer.innerHTML = '';
-
-    for (let i = 1; i <= numDice; i++) {
-      const diceImg = document.createElement('img');
-      diceImg.src = 'dice_2.png';
-      diceContainer.appendChild(diceImg);
+    function updateDiceCount() {
+        const count = diceSlider.value;
+        diceCountDisplay.textContent = count;
+        displayDice(count);
     }
-  }
 
-  function calculateExpectedValue(numDice) {
-    const individualValue = 3.5; 
-    const totalValue = numDice * individualValue;
+    function displayDice(count) {
+        diceContainer.innerHTML = '';
 
-    individualExpectedValue.textContent = `Individual Expected Value: ${individualValue}`;
-    totalExpectedValue.textContent = `Total Expected Value: ${totalValue}`;
-  }
+        for (let i = 0; i < count; i++) {
+            const diceImage = document.createElement('img');
+            diceImage.src = 'dice_2.png';
+            diceContainer.appendChild(diceImage);
+        }
+    }
 
-  // Initial setup
-  updateDiceNumber();
+    function calculateExpectation() {
+        const count = diceSlider.value;
+
+        // Calculate the expected value for individual dice
+        const individualExpectation = (1 + 6) / 2; 
+
+        // Calculate the total expectation for all dice
+        const totalExpectation = count * individualExpectation;
+
+        // Display the results
+        resultContainer.innerHTML = `
+            <p>Expected value for each individual dice: ${individualExpectation}</p>
+            <p>Total expected value for ${count} dice: ${totalExpectation}</p>
+        `;
+    }
+
+    // Initial setup
+    updateDiceCount();
 });
