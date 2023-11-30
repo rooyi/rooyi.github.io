@@ -3,8 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const diceCountDisplay = document.getElementById('diceCount');
     const diceContainer = document.getElementById('diceContainer');
     const resultContainer = document.getElementById('result');
+    const calculateButton = document.getElementById('calculateButton');
 
     diceSlider.addEventListener('input', updateDiceCount);
+    calculateButton.addEventListener('click', calculateExpectation);
 
     function updateDiceCount() {
         const count = diceSlider.value;
@@ -17,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         for (let i = 0; i < count; i++) {
             const diceImage = document.createElement('img');
-            diceImage.src = 'dice_2.png';
+            diceImage.src = 'dice_gen.png';
             diceContainer.appendChild(diceImage);
         }
     }
@@ -26,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const count = diceSlider.value;
 
         // Calculate the expected value for individual dice
-        const individualExpectation = (1 + 6) / 2; 
+        const individualExpectation = (1 + 6) / 2; // Assuming a six-sided dice
 
         // Calculate the total expectation for all dice
         const totalExpectation = count * individualExpectation;
