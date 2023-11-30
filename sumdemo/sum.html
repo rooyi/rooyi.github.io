@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dice Roller</title>
-  <link rel="stylesheet" href="sum.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dice Expectation Calculator</title>
 </head>
 <body>
+    <h1>Dice Expectation Calculator</h1>
 
-  <div class="container">
-    <h1>Dice Roller</h1>
-
-    <label for="diceNumber">Number of Dice: </label>
-    <input type="range" id="diceNumber" min="1" max="10" value="1">
-    <span id="diceValue">1</span>
+    <label for="diceSlider">Choose the number of dice (1-10): </label>
+    <input type="range" id="diceSlider" min="1" max="10" value="1">
+    <span id="diceCount">1</span>
 
     <div id="diceContainer"></div>
 
-    <p id="individualExpectedValue"></p>
-    <p id="totalExpectedValue"></p>
-  </div>
+    <button onclick="calculateExpectation()">Calculate Expectation</button>
 
-  <script src="sum.js"></script>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
