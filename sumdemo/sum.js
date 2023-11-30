@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const calculateButton = document.getElementById('calculateButton');
 
     diceSlider.addEventListener('input', updateDiceCount);
+    
+    // Updated event listener for the button
     calculateButton.addEventListener('click', calculateExpectation);
 
     function updateDiceCount() {
