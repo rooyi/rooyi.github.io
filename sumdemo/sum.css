@@ -1,0 +1,17 @@
+body {
+  background-color: #f5efae
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  text-align: center;
+  margin: 50px;
+}
+
+#diceContainer {
+  margin-top: 20px;
+}
+
+img {
+  width: 50px;
+}
