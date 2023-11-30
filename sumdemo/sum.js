@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     for (let i = 1; i <= numDice; i++) {
       const diceImg = document.createElement('img');
-      diceImg.src = PLACE HOLDER; // IMAGE REPLACE
+      diceImg.src = dice_2.png; // IMAGE REPLACE?????
       diceContainer.appendChild(diceImg);
     }
   }
