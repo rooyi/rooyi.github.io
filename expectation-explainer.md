@@ -17,7 +17,7 @@ One property of expectation is that [INSERT EQUATION], given that a and b are co
 <iframe src="https://rooyi.github.io/linearitydemo/linearity.html" width="500px" height="300px"></iframe>
 
 Testtest
-<iframe src="https://rooyi.github.io/salarydemo/salary.html" width "500px" height="300px"></iframe>
+<iframe src="https://rooyi.github.io/salarydemo/salarydemo.html" width "500px" height="300px"></iframe>
 
 # EXPECTATION OF SUMS
 "Expectation of Sums is the Sum of Expectations." The statement is true when X and Y are dependent and independent alike. X and Y can even have different distributions. Additionally, this concept applies for any amount of expectations. This can seem like a lot of conditions to take in, so let's start one by one. 
