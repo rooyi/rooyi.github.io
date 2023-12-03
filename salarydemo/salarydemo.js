@@ -37,4 +37,3 @@ function calculateSalary() {
     bonusDisplay.textContent = `Bonus: ${bonusAmount.toFixed(2)}`;
     resultElement.appendChild(bonusDisplay);
 }
-
