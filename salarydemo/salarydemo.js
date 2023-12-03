@@ -38,10 +38,6 @@ function calculateSalary() {
     const resultElement = document.getElementById('result');
     resultElement.innerHTML = '';
 
-    const expectationDisplay = document.createElement('div');
-    expectationDisplay.textContent = `Expectation E[aX + b] = ${(totalSalary / 5).toFixed(2)}`;
-    resultElement.appendChild(expectationDisplay);
-
     const hourlyRateDisplay = document.createElement('div');
     hourlyRateDisplay.textContent = `Hourly Rate: ${hourlyRate.toFixed(2)}`;
     resultElement.appendChild(hourlyRateDisplay);
@@ -50,27 +46,13 @@ function calculateSalary() {
     bonusDisplay.textContent = `Bonus: ${bonusAmount.toFixed(2)}`;
     resultElement.appendChild(bonusDisplay);
 
-    const totalHoursValue = document.getElementById('totalHoursValue');
-    totalHoursValue.textContent = totalHours;
+    const totalHoursValue = document.createElement('div');
+    totalHoursValue.textContent = `Total Hours: ${totalHours}`;
+    resultElement.appendChild(totalHoursValue);
 
-    const totalEarnings = totalSalary / 5;
-    const totalEarningsDisplay = document.createElement('div');
-    totalEarningsDisplay.textContent = `Total Earnings: ${totalEarnings.toFixed(2)}`;
-    resultElement.appendChild(totalEarningsDisplay);
-}
-
-function createPersonElement(personIndex, hoursWorked, earnings) {
-    const personContainer = document.getElementById('people-container');
-    const personElement = document.createElement('div');
-    personElement.classList.add('person');
-    personElement.innerHTML = `
-        <img src="person.png" alt="Person ${personIndex + 1}">
-        <div class="hours-text">
-            Hours: <span>${hoursWorked}</span><br>
-            $: <span>${earnings.toFixed(2)}</span>
-        </div>
-    `;
-    personContainer.appendChild(personElement);
+    const expectationDisplay = document.createElement('div');
+    expectationDisplay.textContent = `Expectation E[aX + b] = ${(totalSalary / 5).toFixed(2)}`;
+    resultElement.appendChild(expectationDisplay);
 }
 
 
