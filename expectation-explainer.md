@@ -20,7 +20,7 @@ One property of expectation is that [INSERT EQUATION], given that a and b are co
 "Expectation of Sums is the Sum of Expectations." The statement is true when X and Y are dependent and independent alike. X and Y can even have different distributions. Additionally, this concept applies for any amount of expectations. This can seem like a lot of conditions to take in, so let's start one by one. 
 
 [INSERT: SOME ANIMATIONS(?) OR MAYBE INTERACTIVE STUFF IDK BUT BASICALLY THE GIST IS: FIRST, VERSIONS OF CALCULATING EXPECTATION AND THEN SUMMING. THEN, SUMMING AND THEN CALCULATING EXPECTATION.]
-<iframe src="https://rooyi.github.io/sumdemo/sum.html" width="500px" height="300px"></iframe>
+<iframe src="https://rooyi.github.io/sumdemo/sum.html" width="500px" height="350px"></iframe>
 
 1) Dependent X and Y vs Independent X and Y
 
