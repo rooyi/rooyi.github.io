@@ -8,7 +8,7 @@ function createPersonElement(personIndex, hoursWorked) {
     personElement.classList.add('person');
     personElement.innerHTML = `
         <img src="person.png" alt="Person ${personIndex + 1}">
-        <div class="hours-text">Hours Worked: <span>${hoursWorked}</span></div>
+        <div class="hours-text">Hours: <span>${hoursWorked}</span></div>
     `;
     personContainer.appendChild(personElement);
 }
