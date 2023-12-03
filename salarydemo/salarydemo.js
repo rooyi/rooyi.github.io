@@ -45,11 +45,8 @@ function generateRandomNumber(min, max) {
 }
 
 function createPersonElement(personIndex, hoursWorked) {
-    const personContainer = document.getElementById('people-container');
-    const personElement = document.createElement('div');
-    personElement.classList.add('person');
-    personElement.innerHTML = `<img src="person.png" alt="Person ${personIndex + 1}"><br>${hoursWorked} hours`;
-    personContainer.appendChild(personElement);
+    const hoursSpan = document.getElementById(`hours${personIndex + 1}`);
+    hoursSpan.textContent = hoursWorked;
 }
 
 function calculateSalary() {
