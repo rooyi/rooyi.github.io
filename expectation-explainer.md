@@ -14,7 +14,7 @@ Here is where we add to the story. What if each number had a different probabili
 One property of expectation is that [INSERT EQUATION], given that a and b are constants. How can we visualize this? Let's use the classic example of a six-sided die. The expected return value of a six-sided die where each result is of equal probability is 3.5, but that itself does not help us give us much information about constants. 
 
 [INSERT: SLIDER GAME CHOOSING THE AMOUNT OF MONEY YOU EARN FROM THE ROLLS]
-<iframe src="https://rooyi.github.io/salarydemo/salarydemo.html" width="500px" height="400px"></iframe>
+<iframe src="https://rooyi.github.io/salarydemo/salarydemo.html" width="500px" height="350px"></iframe>
 
 # EXPECTATION OF SUMS
 "Expectation of Sums is the Sum of Expectations." The statement is true when X and Y are dependent and independent alike. X and Y can even have different distributions. Additionally, this concept applies for any amount of expectations. This can seem like a lot of conditions to take in, so let's start one by one. 
