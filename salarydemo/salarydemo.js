@@ -66,10 +66,11 @@ function createPersonElement(personIndex, hoursWorked, earnings) {
     personElement.innerHTML = `
         <img src="person.png" alt="Person ${personIndex + 1}">
         <div class="hours-text">
-            Hours: <span>${hoursWorked}</span>
+            Hours: <span>${hoursWorked}</span><br>
             $: <span>${earnings.toFixed(2)}</span>
         </div>
     `;
     personContainer.appendChild(personElement);
 }
+
 
