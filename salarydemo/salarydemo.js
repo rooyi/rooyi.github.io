@@ -35,8 +35,7 @@ function calculateSalary() {
     }
 
     const resultElement = document.getElementById('result');
-    resultElement.innerHTML = ''; 
-    resultElement.textContent = `Expectation E[aX + b] = ${totalSalary.toFixed(2)}`;
+    resultElement.innerHTML = '';
 
     const hourlyRateDisplay = document.createElement('div');
     hourlyRateDisplay.textContent = `Hourly Rate: ${hourlyRate.toFixed(2)}`;
@@ -46,7 +45,12 @@ function calculateSalary() {
     bonusDisplay.textContent = `Bonus: ${bonusAmount.toFixed(2)}`;
     resultElement.appendChild(bonusDisplay);
 
-    const totalHoursValue = document.getElementById('totalHoursValue');
-    totalHoursValue.textContent = totalHours;
+    const expectationDisplay = document.createElement('div');
+    expectationDisplay.textContent = `Expectation E[aX + b] = ${totalSalary.toFixed(2)}`;
+    resultElement.appendChild(expectationDisplay);
+
+    const totalHoursDisplay = document.createElement('div');
+    totalHoursDisplay.textContent = `Total Hours: ${totalHours}`;
+    resultElement.appendChild(totalHoursDisplay);
 }
 
