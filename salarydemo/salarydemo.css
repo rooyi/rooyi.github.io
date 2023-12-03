@@ -19,11 +19,11 @@ body {
 
 .person {
     text-align: center;
-    margin-right: 20px; /* Adjust this value to set the desired margin */
+    margin-right: 20px;
 }
 
 .person:last-child {
-    margin-right: 0; /* Remove margin for the last person */
+    margin-right: 0;
 }
 
 .person img {
