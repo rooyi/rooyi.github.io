@@ -35,6 +35,7 @@ function calculateSalary() {
     }
 
     const resultElement = document.getElementById('result');
+    resultElement.innerHTML = ''; 
     resultElement.textContent = `Expectation E[aX + b] = ${totalSalary.toFixed(2)}`;
 
     const hourlyRateDisplay = document.createElement('div');
