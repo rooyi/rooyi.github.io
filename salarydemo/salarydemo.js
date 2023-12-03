@@ -2,14 +2,20 @@ function generateRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function clearPeopleContainer() {
-    const peopleContainer = document.getElementById('people-container');
-    peopleContainer.innerHTML = '';
+function createPersonElement(personIndex, hoursWorked) {
+    const personContainer = document.getElementById('people-container');
+    const personElement = document.createElement('div');
+    personElement.classList.add('person');
+    personElement.innerHTML = `
+        <img src="person.png" alt="Person ${personIndex + 1}">
+        <div class="hours-text">Hours Worked: <span>${hoursWorked}</span></div>
+    `;
+    personContainer.appendChild(personElement);
 }
 
-function createPersonElement(personIndex, hoursWorked) {
-    const hoursSpan = document.getElementById(`hours${personIndex + 1}`);
-    hoursSpan.textContent = hoursWorked;
+function clearPeopleContainer() {
+    const personContainer = document.getElementById('people-container');
+    personContainer.innerHTML = '';
 }
 
 function calculateSalary() {
