@@ -16,6 +16,7 @@ One property of expectation is that [INSERT EQUATION], given that a and b are co
 [INSERT: SLIDER GAME CHOOSING THE AMOUNT OF MONEY YOU EARN FROM THE ROLLS]
 <iframe src="https://rooyi.github.io/linearitydemo/linearity.html" width="500px" height="300px"></iframe>
 
+Testtest
 <iframe src="https://rooyi.github.io/linearitydemo/linearity.html" width "500px" height="300px"></iframe>
 
 # EXPECTATION OF SUMS
