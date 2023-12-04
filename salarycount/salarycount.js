@@ -3,7 +3,7 @@ function calculateHoursWorked() {
     const hourlyRate = parseFloat(document.getElementById('hourlyRate').value) || 0;
     const bonusAmount = parseFloat(document.getElementById('bonusAmount').value) || 0;
 
-    const expectationPerPerson = (hourlyRate * totalHours / 5) + bonusAmount;
+    const expectationPerPerson = hourlyRate*(totalHours / 5) + bonusAmount;
 
     document.getElementById('expectedValueValue').textContent = (totalHours / 5).toFixed(2);
     document.getElementById('equationValue').textContent =
