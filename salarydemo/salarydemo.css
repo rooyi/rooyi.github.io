@@ -12,6 +12,11 @@ body {
     text-align: center;
 }
 
+.person img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
 .hours-text {
     margin-top: 5px;
 }
@@ -24,4 +29,8 @@ body {
     margin-top: 20px;
     font-weight: bold;
     padding-bottom: 20px;
+}
+
+#hourlyRateDisplay, #bonusDisplay, #totalHours, #expectation {
+    margin-bottom: 10px;
 }
