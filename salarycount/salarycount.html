@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hours Worked Calculator</title>
+    <link rel="stylesheet" href="salarycount.css">
+</head>
+<body>
+
+<div id="controls">
+    <label for="totalHours">Total Hours Worked:</label>
+    <br>
+    <input type="number" id="totalHours" min="0" placeholder="Enter total hours worked">
+    <br><br>
+
+    <label for="hourlyRate">Hourly Rate:</label>
+    <br>
+    <input type="number" id="hourlyRate" min="0" step="0.01" placeholder="Enter hourly rate">
+    <br><br>
+
+    <label for="bonusAmount">Bonus:</label>
+    <br>
+    <input type="number" id="bonusAmount" min="0" step="0.01" placeholder="Enter bonus amount">
+    <br><br>
+
+    <button onclick="calculateHoursWorked()">Calculate</button>
+</div>
+
+<div id="result">
+    <div id="expectedValue">E[X] = <span id="expectedValueValue">0</span></div>
+    <div id="equation">aE[X] + b = <span id="equationValue">0 x 0 + 0 = 0</span></div>
+</div>
+
+<script src="salarycount.js"></script>
+</body>
+</html>
