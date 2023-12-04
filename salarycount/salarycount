@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#people-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.person {
+    text-align: center;
+}
+
+.person img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+.hours-text {
+    margin-top: 5px;
+}
+
+#controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#controls label {
+    display: block;
+}
+
+#controls input {
+    margin-top: 5px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#hourlyRateDisplay, #bonusDisplay, #totalHours, #expectation {
+    margin-bottom: 10px;
+}
