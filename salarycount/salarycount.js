@@ -7,5 +7,5 @@ function calculateHoursWorked() {
 
     document.getElementById('expectedValueValue').textContent = (totalHours / 5).toFixed(2);
     document.getElementById('equationValue').textContent =
-        `${hourlyRate} x ${totalHours} / 5 + ${bonusAmount} = ${expectationPerPerson.toFixed(2)}`;
+        `${hourlyRate} x ${totalHours / 5} + ${bonusAmount} = ${expectationPerPerson.toFixed(2)}`;
 }
