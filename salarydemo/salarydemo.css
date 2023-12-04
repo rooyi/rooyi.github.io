@@ -31,16 +31,6 @@ body {
     padding-bottom: 20px;
 }
 
-#controls label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-#controls input {
-    width: 100%;
-    box-sizing: border-box;
-    ma
-
 #hourlyRateDisplay, #bonusDisplay, #totalHours, #expectation {
     margin-bottom: 10px;
 }
