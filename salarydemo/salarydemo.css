@@ -31,6 +31,12 @@ body {
     padding-bottom: 20px;
 }
 
+input {
+    width: 100%
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
 #hourlyRateDisplay, #bonusDisplay, #totalHours, #expectation {
     margin-bottom: 10px;
 }
