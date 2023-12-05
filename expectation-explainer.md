@@ -37,6 +37,8 @@ And the second half of the equation:
 
 
 # FURTHER EXPLORATION
+The example illustrated by this interactive tool is based off of the MIT RES.6-012 Introduction to Probability, Spring 2018 lecture on Linearity of Expectations as delivered by John Tsitsiklis. 
 
-# Sources/Inspirations
-This project is 
+**Credits**
+Inspired by the open-source code from the Seeing Theory project from Brown University.
+ChatGPT-3.5 has been used to help with some parts of code debugging/implementation.
