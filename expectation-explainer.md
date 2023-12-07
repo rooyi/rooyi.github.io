@@ -35,7 +35,7 @@ One property of expectation is that [INSERT EQUATION], given that a and b are co
 And the second half of the equation:
 <iframe src="https://rooyi.github.io/salarycount/salarycount.html" width="500px" height="350px"></iframe>
 
-<img src="expectationimgs/3) Updated Second Side.gif" alt="Second Half of Linearity Equation">
+<img src="expectationimgs/3) Newest.gif" alt="Second Half of Linearity Equation">
 
 
 
