@@ -14,24 +14,32 @@ With our equation _$ = aX + b_, it is now possible to calculate the amount of mo
 
 <img src="expectationimgs/1) Set Up Equation.gif" alt="Set Up Each Individual">
 
-By extension, it is also possible to set this up as an expectation-related problem. We can calculate how much money _n_ people make and also calculate the updated expectation based off of the data of the people's salary weighed by the equal factor P(X=x). 
+By extension, it is also possible to set this up as an expectation-related problem. We can calculate how much money _n_ people make and also calculate the updated expectation based off of the data of the people's salary weighed by the equal factor P(X=x), which in this case is 1/n. 
 
 <img src="expectationimgs/2) Multiple People.gif" alt="Set Up Five Individuals">
 
-# THE FIRST HALF
+In order to calculate our answer here, we can begin looking at two somewhat different methods. We can calculate each person's salary first and then the expectation (as seen on the equation's left hand size). Or, we find the expectation of hours worked and then 1) multiply that value by the hourly wage 2) add the bonus amount. There will be tools to try both and the answers should match.
+
+# THE TWO HALVES OF THE EQUATION
 
 <img src="expectationimgs/Equationfirsthalf.png" alt="First Half of Linearity Equation">
 
+For this half of the equation, we calculate every person's salary and then find the expectation. Below is a tool where you can model one such situation. 
+
+In our specific case, we have 5 individuals who all have worked a randomly generated amount of hours between 1 and 10. You are in control of the rest! You can choose the precise amount of hourly rate and bonus amount and get a feel on how these values can affect expectation. After each activation of the calculate button, you will get to see each person's hours worked and calculated salary underneath their icon, along with the sum of all hours worked. You will also be able to see the expectation based off of the values you chose.
+
 <iframe src="https://rooyi.github.io/salarydemo/salarydemo.html" width="500px" height="450px"></iframe>
 
-# THE SECOND HALF
-<img src="expectationimgs/Equationsecondhalf.png" alt="Second Half of Linearity Equation">
+See what values you can get and pay attention to how each field affects expectation. After each run, head to the next tool to see how both sides of the equation can result in the same answer.
 
-And the second half of the equation:
-<iframe src="https://rooyi.github.io/salarycount/salarycount.html" width="500px" height="350px"></iframe>
+After each run, keep in mind what values you chose for hourly rate and the bonus. Also pay attention to the total hours worked displayed by the previous tool. What if we start by calculating the expected hours worked and then process hourly rate and bonus? That case can be modelled by the tool below. Simply input total hours worked, hourly rate, and bonus to see a different method arrive at the same value. Isn't that cool?
+<iframe src="https://rooyi.github.io/salarycount/salarycount.html" width="500px" height="450px"></iframe>
 
+What the above tool is doing can also be seen through this animation:
 <img src="expectationimgs/3) Newest.gif" alt="Second Half of Linearity Equation">
 
+Do the values equal one another? This demo represents the left half of the equation being equal to the right half of the equation. 
+<img src="expectationimgs/Equationsecondhalf.png" alt="Second Half of Linearity Equation">
 
 
 # WHAT DOES THIS MEAN?
