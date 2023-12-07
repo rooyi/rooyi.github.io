@@ -1,25 +1,20 @@
 # I "EXPECT" a Visual Demo! - Visualizing the Linearity of Expectation
 
-In the fall of 2023, I took CS 109 and we got to the topic of expectation. Since I really like learning mathematics in a visual way, I tried to Google for visual guides or videos about expectation. To my disappointment, most explanations ended up being numerical and unintuitive. So I took matters in my own hands and made this.
-
-Expectation can be a confusing, unintuitive concept. What is an expected value? How do we try and find ways to visualize expectation? Why does this matter in the long run of our probability-related journey? This project seeks to use visuals, examples, and intuition to give a primer on expectation before the nitty-gritty mathematical background of this concept is presented.
-
-# DEFINITION OF EXPECTATION
-Let's first visualize the definition of expectation (aka: Mean, Weighted Average, Center of Mass, 1st Moment). Let's take a simple example of a button that returns one of three numbers. The three possible values are 0, 5, and 10. What value should we expect in return? In earlier understandings of probability, we start off with an understanding of means without an weighted element. The sum of the nums is 0 + 5 + 10 = 15. There are three numbers in total. So, it appears our average value would be 15/3 = 5. (Or coins?)
-
-Here is where we add to the story. What if each number had a different probability of returning? In many cases of probability, not all values have the same probability. This is especially true once we move past coin flips and dice rolls into examples modelled by random variable distributions. Below, you can see an example where you can use a slider to change the likelihoods of each value. As a result, our expectation will look different.
- [INSERT: SLIDER EXAMPLE AND BUTTON]
+The linearity of expectation can at first be an unintuitive concept without many visual elements. What is this property? How do we try and find ways to visualize expectation? Why does this matter in the long run of our probability-related journey? This project seeks to use visuals, examples, and intuition to give a primer on the linearity of expectation without solely relying on mathematical derivation.
 
 # LINEARITY OF EXPECTATION
 <img src="expectationimgs/Fulllinearityequation.png" alt="Equation for the Linearity of Expectation">
 
-One property of expectation is that [INSERT EQUATION], given that a and b are constants. How can we visualize this? Let's use the classic example of a six-sided die. The expected return value of a six-sided die where each result is of equal probability is 3.5, but that itself does not help us give us much information about constants. 
-
-# OUR STORY
-
+Assuming that _a_ and _b_ are constants, the left hand side of the equation yields the same result as the right hand side. When we need to compute the expectation of an equation with multiple steps, the right hand side is a less daunting task. Instead of multiplying a and adding b to each iteration of the summation, this property allows us to calculate the expectation of X first. Then, we can multiply by the constant _a_ and add the constant _b_.
+# THE EXAMPLE STORY
+One simple example using a random variable and two constants is the calculation of salaries. In the fictional company Probability Inc., each person can calculate the salary they can make within a day using the same equation below. Every person at Probability Inc. makes salary _a_ dollars per hour and receives a bonus of _b_ dollars each day. Not everyone works the same amount of hours, as hours are equally distributed between 1-10.
 ![Image showing the defintion of the salary equation](expectationimgs/equationmeaning.png)
 
+With our equation _$ = aX + b_, it is now possible to calculate the amount of money that one person expects to make after a work day.
+
 <img src="expectationimgs/1) Set Up Equation.gif" alt="Set Up Each Individual">
+
+By extension, it is also possible to set this up as an expectation-related problem. We can calculate how much money _n_ people make and also calculate the updated expectation based off of the data of the people's salary weighed by the equal factor P(X=x). 
 
 <img src="expectationimgs/2) Multiple People.gif" alt="Set Up Five Individuals">
 
