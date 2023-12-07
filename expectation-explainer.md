@@ -1,4 +1,4 @@
-# "I EXPECT an Explanation!" - Visualizing Concepts in Expectation
+# I "EXPECT" a Visual Demo! - Visualizing the Linearity of Expectation
 
 In the fall of 2023, I took CS 109 and we got to the topic of expectation. Since I really like learning mathematics in a visual way, I tried to Google for visual guides or videos about expectation. To my disappointment, most explanations ended up being numerical and unintuitive. So I took matters in my own hands and made this.
 
@@ -43,7 +43,7 @@ And the second half of the equation:
 <img src="expectationimgs/4) Wrap Up.gif" alt="Conclusion">
 
 # FURTHER EXPLORATION
-The example illustrated by this interactive tool is based off of the [MIT RES.6-012 Introduction to Probability](https://www.youtube.com/watch?v=0IJFBMIU6x4), Spring 2018 lecture on Linearity of Expectations as delivered by John Tsitsiklis. The video shows the example and the proof.
+The example illustrated by this interactive tool is based off of the [MIT RES.6-012 Introduction to Probability](https://www.youtube.com/watch?v=0IJFBMIU6x4), Spring 2018 lecture on Linearity of Expectations as delivered by John Tsitsiklis.
 
 If you enjoy seeing probability be visually depicted, the [Seeing Theory project](https://seeing-theory.brown.edu/) from a team at Brown University offers a wide range of probability concepts.
 
