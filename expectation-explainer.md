@@ -25,12 +25,12 @@ One property of expectation is that [INSERT EQUATION], given that a and b are co
 
 # THE FIRST HALF
 
-<img src="expectationimgs/Equationfirsthalf" alt="First Half of Linearity Equation">
+<img src="expectationimgs/Equationfirsthalf.png" alt="First Half of Linearity Equation">
 
 <iframe src="https://rooyi.github.io/salarydemo/salarydemo.html" width="500px" height="450px"></iframe>
 
 # THE SECOND HALF
-<img src="expectationimgs/Equationsecondhalf" alt="Second Half of Linearity Equation">
+<img src="expectationimgs/Equationsecondhalf.png" alt="Second Half of Linearity Equation">
 
 And the second half of the equation:
 <iframe src="https://rooyi.github.io/salarycount/salarycount.html" width="500px" height="350px"></iframe>
