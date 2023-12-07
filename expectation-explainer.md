@@ -40,6 +40,7 @@ And the second half of the equation:
 
 
 # WHAT DOES THIS MEAN?
+<img src="expectationimgs/4) Wrap Up.gif" alt="Conclusion">
 
 # FURTHER EXPLORATION
 The example illustrated by this interactive tool is based off of the [MIT RES.6-012 Introduction to Probability](https://www.youtube.com/watch?v=0IJFBMIU6x4), Spring 2018 lecture on Linearity of Expectations as delivered by John Tsitsiklis. The video shows the example and the proof.
