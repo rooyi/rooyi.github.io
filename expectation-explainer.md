@@ -17,6 +17,7 @@ One property of expectation is that [INSERT EQUATION], given that a and b are co
 
 <img src="expectationimgs/1) Set Up Equation.gif" alt="Set Up Each Individual">
 
+<img src="expectationimgs/2) Multiple People.gif" alt="Set Up Five Individuals">
 
 <iframe src="https://rooyi.github.io/salarydemo/salarydemo.html" width="500px" height="450px"></iframe>
 
