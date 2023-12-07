@@ -15,6 +15,9 @@ One property of expectation is that [INSERT EQUATION], given that a and b are co
 
 ![Image showing the defintion of the salary equation](expectationimgs/equationmeaning.png)
 
+<img src="expectationimgs/1) Set Up Equation.gif" alt="Set Up Each Individual">
+
+
 <iframe src="https://rooyi.github.io/salarydemo/salarydemo.html" width="500px" height="450px"></iframe>
 
 And the second half of the equation:
