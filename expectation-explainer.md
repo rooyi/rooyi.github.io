@@ -11,7 +11,11 @@ Here is where we add to the story. What if each number had a different probabili
  [INSERT: SLIDER EXAMPLE AND BUTTON]
 
 # LINEARITY OF EXPECTATION
+<img src="expectationimgs/Fulllinearityequation.png" alt="Equation for the Linearity of Expectation">
+
 One property of expectation is that [INSERT EQUATION], given that a and b are constants. How can we visualize this? Let's use the classic example of a six-sided die. The expected return value of a six-sided die where each result is of equal probability is 3.5, but that itself does not help us give us much information about constants. 
+
+# OUR STORY
 
 ![Image showing the defintion of the salary equation](expectationimgs/equationmeaning.png)
 
@@ -19,27 +23,20 @@ One property of expectation is that [INSERT EQUATION], given that a and b are co
 
 <img src="expectationimgs/2) Multiple People.gif" alt="Set Up Five Individuals">
 
+# THE FIRST HALF
+
+<img src="expectationimgs/Equationfirsthalf" alt="First Half of Linearity Equation">
+
 <iframe src="https://rooyi.github.io/salarydemo/salarydemo.html" width="500px" height="450px"></iframe>
+
+# THE SECOND HALF
+<img src="expectationimgs/Equationsecondhalf" alt="Second Half of Linearity Equation">
 
 And the second half of the equation:
 <iframe src="https://rooyi.github.io/salarycount/salarycount.html" width="500px" height="350px"></iframe>
 
-# EXPECTATION OF SUMS
-"Expectation of Sums is the Sum of Expectations." The statement is true when X and Y are dependent and independent alike. X and Y can even have different distributions. Additionally, this concept applies for any amount of expectations. This can seem like a lot of conditions to take in, so let's start one by one. 
 
-[INSERT: SOME ANIMATIONS(?) OR MAYBE INTERACTIVE STUFF IDK BUT BASICALLY THE GIST IS: FIRST, VERSIONS OF CALCULATING EXPECTATION AND THEN SUMMING. THEN, SUMMING AND THEN CALCULATING EXPECTATION.]
-<iframe src="https://rooyi.github.io/sumdemo/sum.html" width="500px" height="350px"></iframe>
-
-
-1) Dependent X and Y vs Independent X and Y
-
-2) X and Y with Different Distributions
-
-3) Sum of N Expectations
-
-# LAW OF TOTAL EXPECTATION
-[INSERT: BASICALLY THIS CAN ONLY BE DONE AFTER WE KNOW WHAT JOINT PROBABILITY IS. BUT IS THERE A WAY TO NOT DO THAT?]
-
+# WHAT DOES THIS MEAN?
 
 # FURTHER EXPLORATION
 The example illustrated by this interactive tool is based off of the MIT RES.6-012 Introduction to Probability, Spring 2018 lecture on Linearity of Expectations as delivered by John Tsitsiklis. 
