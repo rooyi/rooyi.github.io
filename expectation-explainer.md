@@ -39,9 +39,9 @@ And the second half of the equation:
 # WHAT DOES THIS MEAN?
 
 # FURTHER EXPLORATION
-The example illustrated by this interactive tool is based off of the [MIT RES.6-012 Introduction to Probability][https://www.youtube.com/watch?v=0IJFBMIU6x4], Spring 2018 lecture on Linearity of Expectations as delivered by John Tsitsiklis. The video shows the example and the proof.
+The example illustrated by this interactive tool is based off of the [MIT RES.6-012 Introduction to Probability](https://www.youtube.com/watch?v=0IJFBMIU6x4), Spring 2018 lecture on Linearity of Expectations as delivered by John Tsitsiklis. The video shows the example and the proof.
 
-If you enjoy seeing probability be visually depicted, the [Seeing Theory project][https://seeing-theory.brown.edu/] from a team at Brown University offers a wide range of probability concepts.
+If you enjoy seeing probability be visually depicted, the [Seeing Theory project](https://seeing-theory.brown.edu/) from a team at Brown University offers a wide range of probability concepts.
 
 **Credits:**
 Inspired by the open-source code from the Seeing Theory project from Brown University.
