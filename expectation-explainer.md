@@ -42,10 +42,12 @@ Do the values equal one another? This demo represents the left half of the equat
 <img src="expectationimgs/Equationsecondhalf.png" alt="Second Half of Linearity Equation">
 
 
-# WHAT DOES THIS MEAN?
+# WHAT DOES THIS MEAN? & FURTHER EXPLORATION
+This is one small example to visualize what the linearity of expectation can look like and the implications it can have on a practical, understandable problem. Ultimately, our goal is to generalize this case study into broader applications and gain a greater understanding of expectation. The example of 5 people can be applied to _n_ people, and also be applied to the PMF/PDF of a random distribution.
 <img src="expectationimgs/4) Wrap Up.gif" alt="Conclusion">
 
-# FURTHER EXPLORATION
+There is a lot more to explore that goes beyond this simple visual understanding. What if we have more people? What if we were using a different distribution for the hours worked? The questions can truly be endless. However, this demo has hopefully simplified the linearity of expectation into a concrete case study. I hope this is a starting point to develop a sense of intuition about expectation.
+
 The example illustrated by this interactive tool is based off of the [MIT RES.6-012 Introduction to Probability](https://www.youtube.com/watch?v=0IJFBMIU6x4), Spring 2018 lecture on Linearity of Expectations as delivered by John Tsitsiklis.
 
 If you enjoy seeing probability be visually depicted, the [Seeing Theory project](https://seeing-theory.brown.edu/) from a team at Brown University offers a wide range of probability concepts.
