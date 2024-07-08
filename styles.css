@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Gill Sans, sans-serif;
     line-height: 1.6;
     margin: 2;
     padding: 1;
@@ -40,7 +40,7 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: blue;
     color: white;
     position: fixed;
     bottom: 0;
