@@ -1,14 +1,14 @@
 body {
     font-family: Gill Sans, sans-serif;
     line-height: 1.6;
-    margin: 2;
-    padding: 1;
+    margin: 0;
+    padding: 0;
     background-color: #f0f0f0;
 }
 
 header, footer {
-    background-color: white;
-    color: dark-gray;
+    background-color: #333;
+    color: white;
     text-align: center;
     padding: 1em 0;
 }
@@ -17,6 +17,8 @@ nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
+    background-color: #444;
+    margin: 0;
 }
 
 nav ul li {
@@ -27,20 +29,38 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
+    padding: 10px
 }
 
-main {
+.container {
+    display: flex;
+    justify-content: space-between;
+    algin-items: center;
     padding: 20px;
 }
 
+.left, .right {
+    flex: 1;
+}
+
+
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
 section {
+    padding: 20px;
     margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: blue;
+    background-color: #333;
     color: white;
     position: fixed;
     bottom: 0;
