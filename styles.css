@@ -1,5 +1,5 @@
 body {
-    font-family: Gill Sans, sans-serif;
+    font-family: Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -45,9 +45,9 @@ nav ul li a {
     max-width: 50%;
 }
 
-.right p {
-    font-size: 30px !important;
-    font-weight: bold !important;
+.container .right p {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .image {
