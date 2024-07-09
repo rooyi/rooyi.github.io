@@ -35,13 +35,13 @@ nav ul li a {
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Fix typo from 'algin-items' */
+    align-items: center; 
     padding: 20px;
 }
 
 .left, .right {
     flex: 1;
-    max-width: 50%; /* Ensure containers don't overflow */
+    max-width: 50%;
 }
 
 .image {
