@@ -35,19 +35,20 @@ nav ul li a {
 .container {
     display: flex;
     justify-content: space-between;
-    algin-items: center;
+    align-items: center; /* Fix typo from 'algin-items' */
     padding: 20px;
 }
 
 .left, .right {
     flex: 1;
+    max-width: 50%; /* Ensure containers don't overflow */
 }
-
-
 
 .image {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 section {
