@@ -36,7 +36,8 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 20px;
+    padding: 30px;
+    background-color: white;
 }
 
 .left, .right {
@@ -44,8 +45,13 @@ nav ul li a {
     max-width: 50%;
 }
 
+.left p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .image {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: 0 auto;
