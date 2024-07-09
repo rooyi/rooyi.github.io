@@ -17,7 +17,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     text-align: center;
-    background-color: #444;
+    background-color: white;
     margin: 0;
 }
 
@@ -28,7 +28,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #444;
     padding: 10px;
 }
 
@@ -48,6 +48,7 @@ nav ul li a {
 .container .right p {
     font-size: 30px;
     font-weight: bold;
+    color: #444;
 }
 
 .image {
