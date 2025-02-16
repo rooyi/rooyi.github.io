@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">
+          <img id="sun-icon" src="./assets/sun-icon.png" alt="Light Mode">
+          <img id="moon-icon" src="./assets/moon-icon.png" alt="Dark Mode">
+      </button>
+    </header>
+
+    <div class="big-div">
+        <section id="about" class="section about-container">
+            <div class="sidebar">
+                <div class="profile-picture">
+                    <img src="./assets/RRSUProfilePic.jpg" alt="Me" />
+                </div>
+                <h2 class="name">Renn Su</h2>
+                <p class="title">Palo Alto, CA</p>
+                <div class="social-links">
+                    <a href="mailto:rrsu@cs.stanford.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="about-text-div">
+                <h1 class="greeting-text">About Me</h1>
+                <p class="about-p">
+                    My name is Renn Su and I'm an undergraduate studying Computer Science and minoring in German Studies at Stanford University. I work at the intersection of human-computer interaction, machine learning, and algorithmic fairness.
+                    Most recently, I've worked on <a href="https://chromewebstore.google.com/detail/library-of-values-twitter/gifajeihenkpjpahbnjljdappoimclkj">optimizing societal alignment using LLMs</a> and <a href="https://web.stanford.edu/class/cs147/projects/Designing-AI-for-Older-Adults/Lore/">building accessible systems for older adults</a>. <br><br>Currently I am:
+                </p>
+
+                <ul class="about-list">
+                    <li>Conducting research with the <a href="https://hci.stanford.edu/">HCI Group</a>, advised by <a href="https://hci.stanford.edu/msb/">Prof. Michael Bernstein</a></li>
+                    <li>Editing tech policy @ <a href="https://law.stanford.edu/stanford-technology-law-review-stlr/">the Stanford Technology Law Review</a></li>
+                    <li>Applying probabilistic modeling and computer vision to track and classify fine motor movement</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Renn Su. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+/* General Styles */
+:root {
+  --bg-color-light: #ffffff;
+  --text-color-light: #333333;
+  --bg-color-dark: #333333;
+  --text-color-dark: #ffffff;
+
+  --bg-color: var(--bg-color-light);
+  --text-color: var(--text-color-light);
+}
+
+.dark-theme {
+  --bg-color: var(--bg-color-dark);
+  --text-color: var(--text-color-dark);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header with Theme Toggle Button */
+header {
+  background: var(--bg-color);
+  color: inherit;
+  padding: 1rem 2rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-list a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Theme Toggle Button */
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+#theme-toggle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.3s;
+}
+
+.dark-theme #sun-icon {
+  display: none;
+}
+
+#moon-icon {
+  display: none;
+}
+
+.dark-theme #moon-icon {
+  display: inline;
+}
+
+.light-theme #sun-icon {
+  display: inline;
+}
+
+/* Sidebar Styles */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 4rem 10%;
+  gap: 40px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 8px;
+}
+
+/* Social Links */
+.social-links a img {
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+}
+
+/* Fix Icon Visibility in Dark Mode */
+.dark-theme .social-links a img {
+  filter: invert(1);
+}
+
+/* About Section */
+.about-text-div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 600px;
+}
+
+.greeting-text {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.about-p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.about-list {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Scrollable Updates Box */
+.updates-box {
+  width: 50%;
+  max-height: 150px;
+  overflow-y: auto;
+  border: 1px solid var(--text-color);
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.updates-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.updates-box li {
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--bg-color);
+  color: var(--text-color);
+  margin-top: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
