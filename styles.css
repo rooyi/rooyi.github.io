@@ -147,15 +147,24 @@ header {
 }
 
 /* Social Links */
-.social-links a img {
-  width: 24px;
-  height: 24px;
-  margin: 5px;
+.social-links {
+  display: flex;
+  justify-content: center;
 }
 
-/* Fix Icon Visibility in Dark Mode */
-.dark-theme .social-links a img {
-  filter: invert(1);
+.social-links a:first-child {
+  margin-right: 20px;
+}
+
+.social-links a {
+  color: var(--text-color);
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff;
 }
 
 /* Main Content */
