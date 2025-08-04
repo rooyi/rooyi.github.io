@@ -1,81 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Renn Su</title>
+    <link rel="icon" type="image/png" href="./assets/cartoon.png" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+
 <body>
     <header>
         <nav>
             <ul class="nav-list">
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="mailto:rrsu@cs.stanford.edu">Contact</a></li>
+                <li><a href="#publications">Publications</a></li>
             </ul>
         </nav>
         <button id="theme-toggle">
-          <img id="sun-icon" src="./assets/sun-icon.png" alt="Light Mode">
-          <img id="moon-icon" src="./assets/moon-icon.png" alt="Dark Mode">
-      </button>
+            <img id="sun-icon" src="./assets/sun-icon.png" alt="Light Mode">
+            <img id="moon-icon" src="./assets/moon-icon.png" alt="Dark Mode">
+        </button>
     </header>
 
     <div class="big-div">
-        <section id="about" class="section about-container">
-            <div class="sidebar">
-                <div class="profile-picture">
-                    <img src="./assets/placeholder.jpg" alt="Me" />
-                </div>
-                <h2 class="name">Renn Su</h2>
-                <p class="title">Palo Alto, CA</p>
-                <div class="social-links">
-                    <a href="mailto:rrsu@cs.stanford.edu"><i class="fas fa-envelope"></i></a>
-                </div>
+        <div class="sidebar">
+            <div class="profile-picture">
+                <img src="./assets/placeholder.jpg" alt="Me" />
             </div>
-            <div class="about-text-div">
-                <h1 class="greeting-text">About Me</h1>
-                <p class="about-p">
-                    My name is Renn Su and I'm an undergraduate studying Computer Science and minoring in German Studies at Stanford University. I work at the intersection of human-computer interaction, machine learning, and algorithmic fairness.
-                    Most recently, I've worked on <a href="https://chromewebstore.google.com/detail/library-of-values-twitter/gifajeihenkpjpahbnjljdappoimclkj">optimizing societal alignment using LLMs</a> and <a href="https://web.stanford.edu/class/cs147/projects/Designing-AI-for-Older-Adults/Lore/">building accessible systems for older adults</a>. <br><br>Currently I am:
-                </p>
-
-                <ul class="about-list">
-                    <li>Conducting research with the <a href="https://hci.stanford.edu/">HCI Group</a>, advised by <a href="https://hci.stanford.edu/msb/">Prof. Michael Bernstein</a></li>
-                    <li>Editing tech policy @ <a href="https://law.stanford.edu/stanford-technology-law-review-stlr/">the Stanford Technology Law Review</a></li>
-                    <li>Applying probabilistic modeling and computer vision to track and classify fine motor movement</li>
-                </ul>
-                <!-- Interests and Updates Section -->
-        <div class="interests-updates-container">
-            <div class="interests">
-                <h3>I'm excited about:</h3>
-                <div class="tag-container">
-                    <div class="tag">Machine Learning<span class="tooltip">Exploring ethical AI design</span></div>
-                    <div class="tag">HCI<span class="tooltip">Researching user-friendly AI interfaces</span></div>
-                    <div class="tag">AI Ethics<span class="tooltip">Investigating bias in LLMs</span></div>
-                    <div class="tag">Storytelling<span class="tooltip">Talk to me about nonlinear narratives, prose poetry, and digital storytelling!</span></div>
-                    <div class="tag">Digital Well-Being<span class="tooltip">One of 29 LookUp Live Social Innovators, developed a social sleep tracker (check out Shleepy!)</span></div>
-                    <div class="tag">Art<span class="tooltip">3x featured artist in the annual Stanford Storyboard Club anthology, cover artist, freelance designer</span></div>
-                    <div class="tag">World Literature<span class="tooltip">Currently reading: Rilke, Yu Hua, and exploring magical realism!</span></div>
-                    <div class="tag">Math Poetics<span class="tooltip"></span></div>
-                </div>
-            </div>
-            
-            <div class="updates-section">
-                <h3>Updates:</h3>
-                <div class="updates-box">
-                    <ul>
-                        <li><b>01/2025</b>: Named a <a href="https://ethz.ch/en/studies/non-degree-courses/summer-offers/summer-projects/ssr-fellowship.html">SSR Fellow</a> by the Computer Science Department at ETH Zurich (20/2000+)</li>
-                        <li><b>10/2023</b>: Presented research about Bronze Age archaeology in Anyang, China at <a href="https://undergradresearch.stanford.edu/share/surps-asurps">SURPS</a></li>
-                        <li><b>05/2023</b>: Awarded a VPUE Grant to support my research utilizing geospatial data analysis and computer vision for archaeology</li>
-                    </ul>
-                </div>
+            <h2 class="name">Renn Su</h2>
+            <p class="title">Palo Alto, CA</p>
+            <div class="social-links">
+                <a href="mailto:rrsu@cs.stanford.edu"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
-    </div>
-            </div>
-        </section>
+        <div class="main-content">
+            <section id="about" class="section about-container">
+                <div class="about-text-div">
+                    <h1 class="greeting-text">About Me</h1>
+                    <p class="about-p">
+                        My name is Renn Su and I'm an undergraduate studying Computer Science with a focus on artificial
+                        intelligence and human-computer interaction at Stanford University. I conduct research at the
+                        intersection of human-computer interaction, machine learning, and algorithmic fairness. My work
+                        is primarily
+                        conducted within the
+                        <a href="https://hci.stanford.edu/">Stanford HCI Group</a>, advised by <a
+                            href="https://hci.stanford.edu/msb/">Prof. Michael Bernstein</a></li>.
+                        As a SSR Fellow, I've also worked at ETH Zürich <a href="https://peachlab.ethz.ch/">PEACH
+                            Lab</a> with the support of <a href="https://peachlab.ethz.ch/people/april-wang/">Prof.
+                            April Wang</a>.
+                        My interests include generative agents, simulations of large-scale social systems, and
+                        LLM value elicitation.
+                    </p>
+
+                    <!-- Interests and Updates Section -->
+                    <div class="interests-updates-container">
+                        <div class="interests">
+                            <h3>I'm excited about:</h3>
+                            <div class="tag-container">
+                                <div class="tag">Machine Learning<span class="tooltip">Exploring ethical AI
+                                        design</span>
+                                </div>
+                                <div class="tag">HCI<span class="tooltip">Researching user-friendly AI interfaces</span>
+                                </div>
+                                <div class="tag">AI Ethics<span class="tooltip">Investigating bias in LLMs</span></div>
+                                <div class="tag">Storytelling<span class="tooltip">Talk to me about nonlinear
+                                        narratives,
+                                        prose poetry, and digital storytelling!</span></div>
+                                <div class="tag">Digital Well-Being<span class="tooltip">One of 29 LookUp Live Social
+                                        Innovators, developed a social sleep tracker (check out Shleepy!)</span></div>
+                                <div class="tag">Art<span class="tooltip">3x featured artist in the annual Stanford
+                                        Storyboard Club anthology, cover artist, freelance designer</span></div>
+                                <div class="tag">World Literature<span class="tooltip">Currently reading: Rilke, Yu Hua,
+                                        and
+                                        exploring magical realism!</span></div>
+                                <div class="tag">Math Poetics<span class="tooltip"></span></div>
+                            </div>
+                        </div>
+
+                        <div class="updates-section">
+                            <h3>Updates:</h3>
+                            <div class="updates-box">
+                                <ul>
+                                    <li><b>06/2025</b>: Accepted to the undergraduate honors program at Stanford
+                                    </li>
+                                    <li><b>01/2025</b>: Named a <a
+                                            href="https://ethz.ch/en/studies/non-degree-courses/summer-offers/summer-projects/ssr-fellowship.html">SSR
+                                            Fellow</a> by the Computer Science Department at ETH Zurich (20/2000+)</li>
+                                    <li><b>10/2023</b>: Presented research about Bronze Age archaeology in Anyang, China
+                                        at
+                                        <a href="https://undergradresearch.stanford.edu/share/surps-asurps">SURPS</a>
+                                    </li>
+                                    <li><b>05/2023</b>: Awarded a VPUE Grant to support my research utilizing geospatial
+                                        data analysis and computer vision for archaeology</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section id="experience" class="experience-section">
+                <h3>Experience</h3>
+                <div class="timeline-container">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4 class="timeline-title">Undergraduate Researcher</h4>
+                                    <span class="timeline-company">Stanford Human-Computer Interaction Group</span>
+                                    <span class="timeline-date">2024 - Present</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4 class="timeline-title">Summer Research Fellow</h4>
+                                    <span class="timeline-company">ETH Zürich</span>
+                                    <span class="timeline-date">2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4 class="timeline-title">Editor</h4>
+                                    <span class="timeline-company">Stanford Technology Law Review</span>
+                                    <span class="timeline-date">2024-2025</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4 class="timeline-title">Data Science Intern</h4>
+                                    <span class="timeline-company">SLAC National Accelerator Laboratory</span>
+                                    <span class="timeline-date">2023</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4 class="timeline-title">Intern</h4>
+                                    <span class="timeline-company">StartX</span>
+                                    <span class="timeline-date">2022 - 2023</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h4 class="timeline-title">Software Engineering Intern</h4>
+                                    <span class="timeline-company">inlet co.</span>
+                                    <span class="timeline-date">2021-2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Publications Section -->
+            <section id="publications" class="section about-container">
+                <div class="publications-section">
+                    <h3>Publications</h3>
+                    <div class="publications-container">
+
+                        <!-- EnvAgents -->
+                        <div class="publication-item">
+                            <div class="publication-image">
+                                <img src="./assets/climateplaceholder.png" alt="Publication 2" />
+                            </div>
+                            <div class="publication-content">
+                                <h4 class="publication-title">Measuring the Accuracy of AI Agent Simulations of
+                                    Individuals’
+                                    Climate Attitudes</h4>
+                                <p class="publication-authors">Niles Egan*, <b>Renn Su*</b>, Jonne Kamphorst, David A.
+                                    Shamma, Gabrielle Wong–Parodi, Candice L. Hogan, Linda W. Chang, Michael S.
+                                    Bernstein</p>
+                                <p class="publication-venue">Under Review, 2025</p>
+                                <div class="publication-links">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Values -->
+                        <div class="publication-item">
+                            <div class="publication-image">
+                                <img src="./assets/values.png" alt="Publication 1" />
+                            </div>
+                            <div class="publication-content">
+                                <h4 class="publication-title">Alexandria: A Library of Pluralistic Values for Realtime
+                                    Re-Ranking of Social Media Feeds</h4>
+                                <p class="publication-authors">Akaash Kolluri*, <b>Renn Su*</b>, Farnaz Jahanbakhsh,
+                                    Dora Zhao,
+                                    Tiziano Piccardi, Michael S. Bernstein</p>
+                                <p class="publication-venue">ICWSM 2026</p>
+                                <div class="publication-links">
+                                    <a href="https://arxiv.org/abs/2505.10839" class="publication-link"><i
+                                            class="fas fa-file-pdf"></i> Paper</a>
+                                    <a href="https://libraryofvalues.vercel.app/" class="publication-link"><i
+                                            class="fas fa-code"></i> Website</a>
+                                    <a href="https://chromewebstore.google.com/detail/library-of-values-twitter/gifajeihenkpjpahbnjljdappoimclkj"
+                                        class="publication-link"><i class="fas fa-external-link-alt"></i>
+                                        Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 
     <footer>
@@ -84,4 +235,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
