@@ -150,10 +150,7 @@ header {
 .social-links {
   display: flex;
   justify-content: center;
-}
-
-.social-links a:first-child {
-  margin-right: 20px;
+  gap: 2rem;
 }
 
 .social-links a {
@@ -428,7 +425,7 @@ a {
 }
 
 .timeline::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 15px;
   top: 0;
