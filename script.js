@@ -2,6 +2,15 @@ const themeToggle = document.getElementById('theme-toggle');
 const sunIcon = document.getElementById('sun-icon');
 const moonIcon = document.getElementById('moon-icon');
 
+import { playhtml } from "https://unpkg.com/playhtml";
+
+playhtml.init({
+  cursors: {
+    enabled: true,
+    room: "domain"
+  }
+});
+
 themeToggle.addEventListener('click', () => {
     const root = document.documentElement;
     const currentBg = getComputedStyle(root).getPropertyValue('--bg-color').trim();
